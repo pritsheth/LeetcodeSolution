@@ -7,7 +7,7 @@ import java.util.List;
 public class ReverseText {
 
     public static void main(String[] args) {
-      
+
     }
 
 
@@ -35,6 +35,14 @@ public class ReverseText {
             result[i] = (char) (result[i] ^ result[j]);
         }
         return new String(result);
+    }
+
+
+
+
+
+    public int[] nextGreaterElement(int[] findNums, int[] nums) {
+
     }
 
 
